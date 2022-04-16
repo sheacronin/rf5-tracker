@@ -10,6 +10,10 @@
     text-transform: capitalize;
 }
 
+.crop img {
+    width: 70px;
+}
+
 .crop-level {
     display: flex;
     justify-content: space-between;

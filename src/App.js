@@ -1,11 +1,13 @@
 import './App.css';
 import Crop from './components/Crop';
+import crops from './data/crops.json';
 
 function App() {
     return (
         <section className="crops-container">
-            <Crop crop={{ name: 'turnip' }} />
-            <Crop crop={{ name: 'pink turnip' }} />
+            {crops.map((crop) => (
+                <Crop key={crop.name} crop={crop} />
+            ))}
         </section>
     );
 }
