@@ -43,9 +43,13 @@ const Crop = ({ crop }) => {
             <div>
                 Level
                 <div className="crop-level">
-                    <button onClick={decrementLevel}>-</button>
+                    <button onClick={decrementLevel} className="decrement-btn">
+                        -
+                    </button>
                     <span>{level}</span>
-                    <button onClick={incrementLevel}>+</button>
+                    <button onClick={incrementLevel} className="increment-btn">
+                        +
+                    </button>
                 </div>
             </div>
         </article>
