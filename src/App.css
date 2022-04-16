@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #7ed1b1;
+    background-color: #b1e0ce;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,7 +26,7 @@ button:hover {
     grid-column: 1 / -1;
     justify-self: center;
     font-weight: bold;
-    font-size: 36px;
+    font-size: 30px;
     letter-spacing: 1px;
     width: 100vw;
     text-align: center;
