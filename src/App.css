@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #7ed1b1;
+    font-family: sans-serif;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.crops-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    margin: 40px;
+}

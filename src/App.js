@@ -1,11 +1,13 @@
 import './App.css';
+import Crop from './components/Crop';
 
 function App() {
-  return (
-    <div>
-      hello world
-    </div>
-  );
+    return (
+        <section className="crops-container">
+            <Crop crop={{ name: 'turnip' }} />
+            <Crop crop={{ name: 'pink turnip' }} />
+        </section>
+    );
 }
 
 export default App;
